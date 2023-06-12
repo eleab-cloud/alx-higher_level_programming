@@ -3,4 +3,4 @@ def new_in_list(my_list, idx, element):
     dup_list = my_list[:]
     if idx >= 0 and idx < len(dup_list):
         dup_list[idx] = element
-    return dup
+    return dup_list
